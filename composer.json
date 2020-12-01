@@ -1,0 +1,19 @@
+{
+    "name": "ljs/tools",
+    "description": "工具包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lijinshuai",
+            "email": "13120321516@163.com"
+        }
+    ],
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload":{
+        "psr-4": {"Tools\\Library\\": "src/Tools/Library"}
+    }
+
+}
